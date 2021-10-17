@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "SF Pro";
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 40%;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+}
+
+.button1 {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: #324ca8;
+    border: solid 2px #324ca8;
+    border-radius: 9999px;
+    transition: all 300ms ease 0s;
+}
+
+.button1:hover {
+    background: none;
+    color: #324ca8;
+}
+
+.button2 {
+    text-decoration: none;
+    color: #324ca8;
+    padding: 10px 20px;
+    background: none;
+    border: solid 2px #324ca8;
+    border-radius: 9999px;
+    transition: all 300ms ease 0s;
+}
+
+.button2:hover {
+    background-color: #324ca8;
+    color: white;
+}
+
+.right {
+    display: flex;
+    width: 40%;
+}
+
+.img {
+    width: 70%;
+}
